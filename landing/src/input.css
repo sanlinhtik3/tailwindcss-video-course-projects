@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.active-link {
+    @apply border-b-2 dark:border-emerald-500 dark:text-emerald-500
+}
